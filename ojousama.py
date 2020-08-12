@@ -1,6 +1,9 @@
 import discord
 import asyncio
 import re
+import os
+
+BOT_TOKEN = os.environ.get('BOT_TOKEN')
 
 REGEX = "<:[a-zA-Z0-9_]{2,}:(\d+)>"
 ANIMATED_REGEX="<a:[a-zA-Z0-9_]{2,}:(\d+)>"
@@ -43,4 +46,4 @@ async def on_message(message):
             i += 1
             if i >= 3:
                 break
-client.run('TOKEN')
+client.run(BOT_TOKEN)
