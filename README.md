@@ -6,10 +6,10 @@ Unlike Shikurn, I do not provide a link to add this bot to servers without self-
 
 # Docker
 I do not publish this image publicly, but you can build it yourself easily.
-`docker build . -t Portalboy/ojousama`
+`docker build . -t portalboy/ojousama`
 
 Starting a container is a simple command:
-`docker run -e "BOT_TOKEN=abc123" Portalboy/ojousama:latest`
+`docker run -e "BOT_TOKEN=abc123" --name ojousama -d portalboy/ojousama:latest`
 
 The BOT_TOKEN environment variable takes the Discord token for your bot. You can get this from the Discord Developer Portal.
 

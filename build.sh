@@ -1,1 +1,1 @@
-docker build . -t Portalboy/ojousama
+docker build . -t portalboy/ojousama
