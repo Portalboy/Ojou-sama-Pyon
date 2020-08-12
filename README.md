@@ -1,6 +1,6 @@
 # Ojou-sama-Pyon
 Simple discord bot that post the link to a custom emoji after it was sent in a message to be able to see it in full size.
-There is curently no settings for the bot, it will simply repost the original emoji as it is stored on the discord servers, for a maximum of 3 per message (no duplicates).
+There are curently no settings for the bot, it will simply repost the original emoji as it is stored on the discord servers, for a maximum of 3 per message (no duplicates).
 
 # Docker
 Starting a container is a simple command:
